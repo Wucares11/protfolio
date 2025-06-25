@@ -1,3 +1,3 @@
 export const NotFound = () => {
-  return <div> NotFound</div>;
+  return <div className="text-5xl text-primary"> NotFound</div>;
 };
