@@ -25,7 +25,7 @@ export const ContactSection = () => {
     setIsSubmitting(true);
 
     try {
-      const res = await axios.post("https://portfolio-backend-ten-peach.vercel.app", {
+      const res = await axios.post("http://localhost:5000/send", {
         name,
         email,
         message,
